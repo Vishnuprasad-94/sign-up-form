@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sign-up.css">
+    <script src="./sign-up.js" defer></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+    <header>
+        <div class="about">
+            <h1>Learn to code by watching others</h1>
+            <br>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. </p>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <h2>Try it free 7 days<span> then $20/mo. thereafter</span></h2>
+        </div>
+        <form id="form" novalidate>
+            <div class="inputBox">
+            <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            <p aria-live="polite"></p>
+            </div> 
+            <div class="inputBox">
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            <p aria-live="polite"></p>
+            </div> 
+            <div class="inputBox">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <p aria-live="polite"></p>
+            </div>
+            <div class="inputBox">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <p aria-live="polite"></p>
+            </div>
+            <button type="submit">Claim your free trial</button>
+            <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+        </form>
+    </main>
+    
+</body>
+</html>

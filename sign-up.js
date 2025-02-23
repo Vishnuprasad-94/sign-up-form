@@ -79,6 +79,8 @@ function handleSubmit (e) {
       if (
         firstNameInput.value !== "" &&
         lastNameInput.value !== "" &&
+        emailInput.value !== "" &&
+        passwordInput.value !== "" &&
         emailRegex.test(emailInput.value) &&
         passwordRegex.test(passwordInput.value)
       ) {
